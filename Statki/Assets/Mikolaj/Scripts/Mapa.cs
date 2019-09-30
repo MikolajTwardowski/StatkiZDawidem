@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Mapa : MonoBehaviour
 {
-    List<GameObject> siatka = new List<GameObject>();
+    //public List<GameObject> siatka = new List<GameObject>();
     public GameObject kratkaWody;
 
-    uint wierszy = 100;
-    uint kolumn = 100;
+    uint wierszy = 10;
+    uint kolumn = 10;
     Vector3 tymczasowy;
 
 
@@ -22,7 +22,7 @@ public class Mapa : MonoBehaviour
                 tymczasowy = new Vector3(i, 0, j);
                 temp.transform.position = tymczasowy;
                 temp.name = "Woda_" + i + "-" + j;
-                siatka.Add(temp);
+                //siatka.Add(temp);
                 
             }
 

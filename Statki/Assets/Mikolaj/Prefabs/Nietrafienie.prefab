@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 6168056736280799395}
   - component: {fileID: 5035897402894469547}
   - component: {fileID: 3451806166036619204}
-  - component: {fileID: 8462284029893893061}
   m_Layer: 0
-  m_Name: Woda
+  m_Name: Nietrafienie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e5cccfde59760ac4e986782c0283d7e7, type: 2}
+  - {fileID: 2100000, guid: 9357cc6cd1e327f47a522aa4a823e6d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,16 +77,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8462284029893893061
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560761713685389}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
